@@ -1,3 +1,5 @@
+'use strict';
+
 angular.module('myApp', [])
     .controller('MultiplicationCtrl', function($scope, $attrs) {
         $scope.numberLimit = $attrs.initialNumberLimit || 10;
